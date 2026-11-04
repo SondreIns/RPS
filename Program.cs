@@ -9,7 +9,7 @@ class Program
 
         // Test zone
         Game game = new Game();
-        game.Setup();
+        game.StartGame();
         // Exit reached
         Console.WriteLine("exit");
         Console.ReadKey();

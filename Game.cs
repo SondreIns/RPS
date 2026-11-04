@@ -13,19 +13,13 @@ public class Game
         _players = new Player[2];
     }
 
-    public void Setup()
-    {
-        Console.Clear();
-        ConsoleWriter.WriteLine("Player 1, human or computer?", ConsoleColor.Green);
-        ConsoleWriter.WriteLine("1. Human\n2. Computer", ConsoleColor.Cyan);
-        string? input1 = Console.ReadLine();
-        if(string.IsNullOrEmpty(input1)) input1 = "2";
+    public void StartGame() => Setup();
 
-        Console.Clear();
-        ConsoleWriter.WriteLine("Player 2, human or computer?", ConsoleColor.Red);
-        ConsoleWriter.WriteLine("1. Human\n2. Computer", ConsoleColor.Cyan);
-        string? input2 = Console.ReadLine();
-        if (string.IsNullOrEmpty(input2)) input2 = "2";
+    private void Setup()
+    {
+
+        string input1 = InitPlayerSetup(0);
+        string input2 = InitPlayerSetup(1);
 
         Player player1 = new Player(!input1.Equals("1"), 0);
         Player player2 = new Player(!input2.Equals("1"), 1);
@@ -84,5 +78,16 @@ public class Game
             default:
                 return 2;
         }
+    }
+
+    private string InitPlayerSetup(int index)
+    {
+        Console.Clear();
+        ConsoleColor col = index == 0 ? ConsoleColor.Green : ConsoleColor.Red;
+        ConsoleWriter.WriteLine($"Player {index + 1}, human or computer?", col);
+        ConsoleWriter.WriteLine("1. Human\n2. Computer", ConsoleColor.Cyan);
+        string? input = Console.ReadLine();
+        if (string.IsNullOrEmpty(input)) input = "2";
+        return input;
     }
 }
