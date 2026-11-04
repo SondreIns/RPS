@@ -12,3 +12,4 @@ C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\refint\RPS.dll
 C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\RPS.pdb
 C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\RPS.genruntimeconfig.cache
 C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\ref\RPS.dll
+C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\RPS.sourcelink.json
