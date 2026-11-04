@@ -1,0 +1,14 @@
+C:\Users\Fyrre\Documents\Kodehode\RPS\bin\Debug\net10.0\RPS.exe
+C:\Users\Fyrre\Documents\Kodehode\RPS\bin\Debug\net10.0\RPS.deps.json
+C:\Users\Fyrre\Documents\Kodehode\RPS\bin\Debug\net10.0\RPS.runtimeconfig.json
+C:\Users\Fyrre\Documents\Kodehode\RPS\bin\Debug\net10.0\RPS.dll
+C:\Users\Fyrre\Documents\Kodehode\RPS\bin\Debug\net10.0\RPS.pdb
+C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\RPS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\RPS.AssemblyInfoInputs.cache
+C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\RPS.AssemblyInfo.cs
+C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\RPS.csproj.CoreCompileInputs.cache
+C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\RPS.dll
+C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\refint\RPS.dll
+C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\RPS.pdb
+C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\RPS.genruntimeconfig.cache
+C:\Users\Fyrre\Documents\Kodehode\RPS\obj\Debug\net10.0\ref\RPS.dll
