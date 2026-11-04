@@ -4,7 +4,6 @@ namespace RPS;
 
 public class Player
 {
-    public Pick Pick { get; private set; }
     public bool IsComputer { get; }
     private int _index;
 
@@ -13,8 +12,6 @@ public class Player
         IsComputer = isComputer;
         _index = index;
     }
-
-    public void ChangePick() => Pick = SetNewPick();
 
     public Pick SetNewPick()
     {
